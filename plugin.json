@@ -1,0 +1,18 @@
+{
+  "id": "example.todo-hints",
+  "name": "TODO Hints",
+  "version": "1.0.0",
+  "minIdeVersion": "0.2.0",
+  "main": "main.js",
+  "description": "Marca comentários TODO e FIXME e sugere responsáveis pela equipe.",
+  "activation": {
+    "languages": [
+      "php",
+      "blade",
+      "markdown"
+    ]
+  },
+  "permissions": [
+    "project.read"
+  ]
+}
